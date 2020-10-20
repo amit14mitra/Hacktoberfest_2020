@@ -9,7 +9,7 @@ Also after removing the jquery it is all set to become the universal scripting s
 
 <h2 style="text-decoration:underline;font-size:25px;">2. JQuery removed -</h2>
 <p style="font-size: 20px;">
-<img src="./img/jquery.jpeg"><br></br>
+<img src="./img/jquery.jpeg" /><br></br>
 After hearing this thing I thought why they removed the jquery. Then I go through a article about the actual reason for removing the jquery.
 According to them they are using jquery for many years and it has been so bloated that for downloading and website loading time it is giving slower performance due to it’s virtual DOM. Besides that there are other frameworks like angular, vue and react which are better than jquery. So, they moved to vanilla JS which will give them a general standard of writing code.
 </p>
@@ -24,6 +24,7 @@ In bootstrap 5 there is no support for IE 10 and 11. So, the alternative remains
 Bootstrap 5 will enable responsive font sizes by default which will automatically resize the typography element according to the size of the user’s viewport through Responsive Font Sizes.
 According to RFS repository, Responsive Font Size is a unit resizing engine which was originally developed to resize font sizes. RFS offers the ability to resize basically every value for any CSS property with units, like margin, padding, border-radius or box-shadow. Suppose, we have header class which we will use for main section title according to the font-size:
 <h2>
+
 .header { @include font-size(5rem); }
 
 .header { font-size: calc(1.5rem + 3.2vw); }
